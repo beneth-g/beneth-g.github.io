@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+	font-family: Helvetica,sans-serif;
+}
+
+h1{
+	font-size: 25px;
+	color: purple;
+}
+
+img{
+	max-width: 1920px;
+	max-height: 500px;
+}
+
+#slogan{
+	font-size: 18px;
+	color: #008080;
+	font-weight: bold;
+}
+.list{
+	text-align: left;
+}
