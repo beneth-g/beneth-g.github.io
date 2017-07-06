@@ -1,0 +1,184 @@
+body{
+	text-align: center;
+	font-family: Helvetica,sans-serif;
+	margin: 0px;
+
+	}
+#img-header{
+	float:left;
+}
+
+header{
+	background: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+}
+
+nav {
+	text-align: center;
+	font-family: Helvetica,sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 2%;
+	color: #00B2B2;
+	font-size: 1.5em;
+	display: block;
+	float: left;
+}
+
+a:hover {
+	color: #f54473; 
+	text-decoration: underline;
+}
+
+#img-header{
+	padding-right: 80px;
+}
+
+
+.toptitle{
+	font-size: 4em;
+	color: #FFFFFF;
+	text-shadow: 2px 2px black;
+	line-height:50%;
+}
+
+
+
+#slogan{
+	padding: 5% 0;
+	font-family: "Archivo Black";
+	font-size: 1.7em;
+	color: #FFF;
+	background: #00B2B2;
+	text-align: center;
+	}
+
+#left h1{
+	color:#f54473;
+	font-size: 3em;
+	text-align: justify;
+	margin: 0 15%;
+}
+
+#left {
+	padding: 7% 0;
+	float: left;
+	width: 60%;
+}
+
+.hometext { 
+	font-family: Helvetica,sans-serif;
+	font-size: 1.2em;
+	line-height: 1.7em;
+	margin: 0 7% 0 15%;
+	text-align: justify;
+ }
+
+#right {
+	background-color: white;
+	padding: 0px;
+	float: right;
+	width: 30%;
+}
+
+#me {
+	padding: 10% 0;
+	align-content: center;
+
+}
+
+#main-img {
+	background: url("../images/work-img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 150px;
+	padding-bottom: 150px;
+
+}
+
+#main-img:hover {
+	background: url("../images/work-hover02.jpg");
+	background-size: cover;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+ 	background: #00B2B2;
+ 	padding:20px 0;
+ 	color: #FFF;
+ 	font-size: .8em;
+ }
+
+ @media only screen and (min-width: 930px){
+ #me {
+ 	padding: 20% 5%;
+
+ 	}
+}
+
+@media only screen and (max-width: 780px){
+	nav a {
+ 		display: block;
+ 		float: none;
+ 		padding: 3%;
+ 	}
+
+ 	#img-header{
+ 		float: none;
+ 		padding: 0;
+ 	}
+}
+
+ @media only screen and (max-width: 650px){
+ 	nav a {
+ 		display: block;
+ 		float: none;
+ 		padding: 5%;
+ 	}
+
+ 	#img-header{
+	float:none;
+	padding: 7%;
+	margin: 0;
+	width: 50%;
+	}
+
+
+ 	#left {
+ 		float:none;
+ 		width:100%;
+ 		margin: none;
+ 	}
+
+ 	.hometext{
+ 		margin: 0 5%;
+ 	}
+
+ 	#left h1{
+ 		text-align: center;
+ 		padding-top: 7%;
+ 	}
+
+ 	#right {
+ 		float: none;
+ 		width: 0;
+ 	}
+
+ 	.toptitle{
+ 		font-size: 3em;
+ 		line-height: 110%;
+ 		padding: 3%;
+ 	}
+}
